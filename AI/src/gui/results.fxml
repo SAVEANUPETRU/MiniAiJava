@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ResultsController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="181.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="False  Positve" wrappingWidth="180.13671875" />
+            <Label fx:id="FalsePositive" prefHeight="69.0" prefWidth="189.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="False Negative" wrappingWidth="186.13671875" />
+            <Label fx:id="FalseNegative" prefHeight="59.0" prefWidth="187.0" text="Label" />
+         </children>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="198.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="True Positive" wrappingWidth="199.13671875" />
+            <Label fx:id="TruePositive" prefHeight="68.0" prefWidth="215.0" text="Label" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="True Negative" wrappingWidth="202.13671875" />
+            <Label fx:id="TrueNegative" prefHeight="70.0" prefWidth="203.0" text="Label" />
+         </children>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="223.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Accuracy" wrappingWidth="223.13671875" />
+            <Label fx:id="Accuracy" prefHeight="72.0" prefWidth="211.0" text="Label" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Precision" wrappingWidth="207.13671875" />
+            <Label fx:id="Precision" prefHeight="76.0" prefWidth="209.0" text="Label" />
+         </children>
+      </VBox>
+   </children>
+</HBox>
